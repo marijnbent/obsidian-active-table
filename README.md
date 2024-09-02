@@ -6,7 +6,7 @@ This repository serves as a template to quickly create a new Obsidian plugin. It
 
 1. **Clone or Fork this repository.**
 2. **Replace placeholders:**
-   - Search for `MyPlugin`, `my-plugin`, `my-repo` and `my-name` throughout the codebase.
+   - Search for `ActiveTable`, `active-table`, `marijnbent/obsidian-active-table` and `Marijn Bent` throughout the codebase.
    - Replace these placeholders with your plugin's actual name, its slug (lowercase with hyphens), and your own name, respectively.
 3. **Repository Workflow Permissions:** Ensure you set the repository workflow permissions to **Read and write permissions**.
 4. **Customize the files and structure** according to your plugin requirements.
@@ -40,4 +40,4 @@ Ensure you set the repository workflow permissions to **Read and write permissio
 
 ## Additional Notes
 
-- **Placeholder Replacement:** Make sure to search and replace all instances of `MyPlugin`, `my-plugin`, and `my-name` to fit your specific plugin and personal details.
+- **Placeholder Replacement:** Make sure to search and replace all instances of `ActiveTable`, `active-table`, and `Marijn Bent` to fit your specific plugin and personal details.

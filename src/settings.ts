@@ -1,10 +1,10 @@
 import { App, PluginSettingTab, Setting } from 'obsidian';
-import MyPlugin from './main';
+import ActiveTable from './main';
 
-export class MyPluginSettingTab extends PluginSettingTab {
-    plugin: MyPlugin;
+export class ActiveTableSettingTab extends PluginSettingTab {
+    plugin: ActiveTable;
 
-    constructor(app: App, plugin: MyPlugin) {
+    constructor(app: App, plugin: ActiveTable) {
         super(app, plugin);
         this.plugin = plugin;
     }
@@ -14,7 +14,7 @@ export class MyPluginSettingTab extends PluginSettingTab {
 
         containerEl.empty();
 
-        new Setting(containerEl).setName('MyPlugin').setHeading();
+        new Setting(containerEl).setName('ActiveTable').setHeading();
 
         new Setting(containerEl)
             .setName('Bool Setting')

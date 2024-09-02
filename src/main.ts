@@ -1,14 +1,14 @@
 import { Plugin } from 'obsidian';
-import { MyPluginSettingTab } from './settings';
-import { MyPluginSettings, DEFAULT_SETTINGS } from './types';
+import { ActiveTableSettingTab } from './settings';
+import { ActiveTableSettings, DEFAULT_SETTINGS } from './types';
 
-export default class MyPlugin extends Plugin {
-    settings: MyPluginSettings;
+export default class ActiveTable extends Plugin {
+    settings: ActiveTableSettings;
 
     async onload() {
 
         this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
-        this.addSettingTab(new MyPluginSettingTab(this.app, this));
+        this.addSettingTab(new ActiveTableSettingTab(this.app, this));
         
         // this.addCommand({
         //     id: '',

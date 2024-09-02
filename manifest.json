@@ -1,10 +1,10 @@
 {
-	"id": "obsidian-my-plugin",
-	"name": "My Plugin",
+	"id": "active-table",
+	"name": "Active Table",
 	"version": "0.1.0",
 	"minAppVersion": "1.6.0",
 	"description": "",
-	"author": "my-name",
+	"author": "Marijn Bent",
 	"authorUrl": "",
 	"isDesktopOnly": true
 }
